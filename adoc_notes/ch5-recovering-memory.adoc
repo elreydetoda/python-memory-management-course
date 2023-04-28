@@ -1,0 +1,13 @@
+// variables
+:code_base_path: ../code
+// :chapter_base_path: {code_base_path}/ch05-allocations
+:imagesdir: images/
+
+== Chapter 5: Recovering memory in Python
+
+=== Reference counting
+
+Once all the refrerences to an object are gone, the object is cleaned up.
+
+.https://bit.ly/cpythonobject
+image:Screenshot_20230427_232635.png[Reference counting]

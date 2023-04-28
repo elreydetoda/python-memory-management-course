@@ -1,6 +1,6 @@
 // variables
 :code_base_path: ../code
-:chapter_base_path: {code_base_path}/ch04-allocations
+// :chapter_base_path: {code_base_path}/ch04-allocations
 :imagesdir: images/
 
 
