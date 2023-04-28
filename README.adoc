@@ -1,0 +1,7 @@
+= Python Memory Management Course
+
+:toc:
+
+:asciidoc_folder: ./adoc_notes
+
+include::{asciidoc_folder}/ch4-allocating-memory.adoc[]
