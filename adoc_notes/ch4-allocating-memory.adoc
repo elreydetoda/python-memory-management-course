@@ -3,7 +3,6 @@
 :chapter_base_path: {code_base_path}/ch04-allocations
 :imagesdir: images/
 
-// image:Screenshot_20211212_080726.png[how css & html parsed by client]
 
 == Chapter 4: Allocating memory in Python
 
