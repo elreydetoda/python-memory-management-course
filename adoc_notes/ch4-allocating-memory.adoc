@@ -7,5 +7,36 @@
 
 == Chapter 4: Allocating memory in Python
 
+=== Allocation in action
+
 .How you'd think python would allocate memroy
 image:Screenshot_20230427_224056.png[how you'd think python would allocate memory]
+
+
+.How python actually allocates memory (https://bit.ly/pyobjectallocators)
+image:Screenshot_20230427_225247.png[how python actually allocates memory]
+
+=== Big objects may actually be many small ones
+
+image:Screenshot_20230427_225624.png[big objects may actually be many small ones]
+
+=== Small object allocation introduction
+
+
+[quote, Artem Golubin, 'https://rushter.com/blog/python-memory-managment/ (https://web.archive.org/web/20230105025948/https://rushter.com/blog/python-memory-managment/[wbm])']
+____
+To reduce overhead for small objects (less than 512 bytes) Python sub-allocates big blocks of memory. Larger objects are routed to standard C allocator. Small object allocator uses three levels of abstraction — `arena`, `pool`, and `block`.
+____
+
+=== Allocating blocks
+
+image:Screenshot_20230427_230925.png[allocating blocks]
+
+=== Allocating pools
+
+.https://bit.ly/cpythonpools
+image:Screenshot_20230427_231107.png[allocating pools]
+
+=== Allocating arenas
+
+image:Screenshot_20230427_231347.png[allocating arenas]
