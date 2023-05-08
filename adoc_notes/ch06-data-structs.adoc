@@ -1,0 +1,6 @@
+// variables
+:code_base_path: ../code
+// :chapter_base_path: {code_base_path}/ch05-allocations
+:imagesdir: images/
+
+== Chapter 6: Efficient data structures
