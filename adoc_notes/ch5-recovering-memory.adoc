@@ -11,3 +11,7 @@ Once all the refrerences to an object are gone, the object is cleaned up.
 
 .https://bit.ly/cpythonobject
 image:Screenshot_20230427_232635.png[Reference counting]
+
+Pays attention to container objects (lists, sets, tuples, etc.), and the garbage collector is used to break cycles.
+
+image:signal-2023-05-07-230157_002.png[Garbage collector]
